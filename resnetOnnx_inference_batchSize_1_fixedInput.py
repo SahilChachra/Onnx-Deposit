@@ -2,7 +2,6 @@
 This inference script takes in images of size 224x224 and batch size 1
 '''
 
-
 import onnx
 import onnxruntime as ort
 import numpy as np

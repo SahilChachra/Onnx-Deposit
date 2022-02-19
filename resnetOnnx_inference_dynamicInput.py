@@ -36,8 +36,8 @@ try:
     outputs = ort_session.run(None, {"input":img_list})
     out = np.array(outputs)
 
-    for num_images, image_name in zip(range(out.shape[1]), os.listdir(image_path)):
-        index = out[0][num_images]
+    for image_num, image_name in zip(range(out.shape[1]), os.listdir(image_path)):
+        index = out[0][image_num]
         print("Image : {0}, Class : {1}".format(image_name, get_class(np.argmax(index))))
 
 except Exception as e:
