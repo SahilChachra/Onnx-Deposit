@@ -1,3 +1,7 @@
+'''
+Convert ResNet torch model to Onnx with dynamic batch size and width, height
+'''
+
 import torch
 import torchvision
 
