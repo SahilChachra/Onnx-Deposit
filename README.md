@@ -1,6 +1,6 @@
 <h1 align="center">Onnx - Deposit : Conversion & Inference scripts</h1>
 
-![](https://github.com/SahilChachra/Onnx-Deposit/tree/main/assets/onnx_logo.png)
+![](https://github.com/SahilChachra/Onnx-Deposit/blob/main/assets/onnx_logo.png)
 
 ## :innocent: Motivation
 A single repo with code & some theory to quickly refer when working with Onnx.
