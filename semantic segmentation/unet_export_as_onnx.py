@@ -6,7 +6,7 @@ tf.saved_model.save(model, "./output")
 
 # After saving the model, install the following :-
 # pip install git+https://github.com/onnx/tensorflow-onnx
-# Assuming tensorflow, onnx and onnruntime is installed
+# Assuming tensorflow, onnx and onnxruntime is installed
 python -m tf2onnx.convert --saved-model /content/output --output unet.onnx
 
 # Refer tf2onnx/convert.py for checking out more supported formats
